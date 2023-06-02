@@ -33,7 +33,6 @@ def reformat(assignment: Union[str, dict], object: str, format: str) -> str:
 
     """
     Reformats a given string based on input arguments.
-    Arguments: date, temperature
     """
 
     if type(assignment) == str:
@@ -96,8 +95,3 @@ def reformat(assignment: Union[str, dict], object: str, format: str) -> str:
                     }
                 
                 return formatted_dict
-
-# types: temperatures
-# time format: "%Y-%m-%d"
-
-reformat('')
